@@ -69,7 +69,7 @@ def download_and_convert_mp3(url, filename):
         return None, str(e)
 
 # Main selection for converter type
-converter_choice = st.radio("Choose Converter:", ["WAV to PCM Converter", "WAV to MP3 Converter"])
+converter_choice = st.radio("Choose Converter:", ["WAV to MP3 Converter", "WAV to PCM Converter"])
 
 if converter_choice == "WAV to PCM Converter":
     st.title("🎧 WAV to PCM WAV Converter")
